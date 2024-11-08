@@ -1,4 +1,4 @@
-# TRIMBLE VITE BOILERPLATE APP
+# TCEXT - A vite-react trimble connect extension
 
 
 ```sh
