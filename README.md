@@ -22,3 +22,18 @@ This should produce the following in Trimble Connect
 <img src="other/InAction.png" alt="InAction">
 </div>
 
+---
+
+## Cusomisation
+
+The allowedKeys and filterOptions take strings as search fields... extend them as you like. 
+
+```jsx
+// src/Components/ObjectSearch.jsx
+const allowedKeys = ["Type", "Label", "PID"]; // + 'OBJECTID'? 
+const filterOptions = ["Type", "Label", "PID"]; // + 'OBJECTID'? 
+```
+
+<div align="center">
+<img src="other/PropInsts.png" alt="InAction" width="400">
+</div>
