@@ -2,13 +2,14 @@ import './../App.css';
 import Connect from './Connect';
 import Coloured from './Coloured';
 import Snapshot from './Snapshot';
-// import OtherComponent from './Components/OtherComponent'; // Assume this is any other component that will use the API object
+import ObjectSearch from './ObjectSearch';
 
 function ToApp() {
   return (
     <>
       <Connect>
-        <h1>Playing</h1>
+        <h1>TCEXT</h1>
+        <ObjectSearch />
         <Coloured />
         <Snapshot />
         {/* <OtherComponent /> */}

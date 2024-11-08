@@ -14,11 +14,24 @@ const Snapshot = () => {
 
   return (
     <div>
-      <button onClick={takeAPicture}>Take Picture</button>
+      <button
+        onClick={takeAPicture}
+        style={{
+          color: "orange",
+          backgroundColor: "black",
+          padding: "10px",
+          borderRadius: "5px",
+          border: "none",
+        }}
+      >
+        Take Picture
+      </button>
       {/* fit the snapshot to the width of the panel */}
-      {imageUrl && <img src={imageUrl} alt="Snapshot" style={{ width: "100%" }} />}
+      {imageUrl && (
+        <img src={imageUrl} alt="Snapshot" style={{ width: "100%" }} />
+      )}
     </div>
   );
-}
+};
 
 export default Snapshot;

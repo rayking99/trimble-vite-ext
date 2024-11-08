@@ -1,8 +1,24 @@
-# React + Vite
+# TRIMBLE VITE BOILERPLATE APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+```sh
+git clone https://github.com/rayking99/trimble-vite-ext
+cd trimble-vite-ext
+npm install
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Open your browser to Trimble Connect and input the following details: 
+
+<div align="center">
+<img src="other/image.png" alt="Extension Setup" width="400">
+</div>
+
+
+--- 
+This should produce the following in Trimble Connect
+
+<div align="center">
+<img src="other/InAction.png" alt="InAction">
+</div>
+

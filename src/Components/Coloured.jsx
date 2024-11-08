@@ -22,7 +22,16 @@ const Coloured = () => {
 
   return (
     <div>
-      <button onClick={getColouredObjects}>Get Coloured Objects</button>
+      <button onClick={getColouredObjects}
+      style={{
+        color: "orange",
+        backgroundColor: "black",
+        padding: "10px",
+        borderRadius: "5px",
+        border: "none",
+      }}
+      
+      >Get Coloured Objects</button>
       <p>THERE ARE {totalObjects} COLOURED OBJECTS!</p>
       <div>
         {colouredObjects.map((object) => (
