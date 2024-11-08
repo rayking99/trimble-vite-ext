@@ -1,5 +1,6 @@
-# TCEXT - A vite-react trimble connect extension
+## Trimble Connect Extension Boilerplate
 
+Built with ```npm create vite@latest```. 
 
 ```sh
 git clone https://github.com/rayking99/trimble-vite-ext
